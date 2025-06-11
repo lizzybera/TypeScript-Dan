@@ -1,0 +1,17 @@
+{
+  "name": "typescript_project",
+  "version": "1.0.0",
+  "description": "This is a project to understand typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "ts-node-dev --respawn --transpile-only ./second.ts"
+  },
+  "keywords": [
+    "tuple",
+    "emums",
+    "interface"
+  ],
+  "author": "Daniel",
+  "license": "MIT"
+}
