@@ -9,3 +9,11 @@ const myCar : car = {
 console.log(func(30, 10));
 console.log("");
 console.log(myCar);
+
+
+// more codes
+console.log("Welcome to more TypeScript as we learn github 😁😁");
+console.log("");
+
+const numb: number = 30
+console.log(numb);
