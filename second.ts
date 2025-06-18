@@ -1,4 +1,4 @@
-import {func, car} from "./index"
+import {func, car} from "./entry"
 console.log("Second");
 
 const myCar : car = {

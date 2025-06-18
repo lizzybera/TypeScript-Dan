@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm start",
-    "start": "ts-node-dev --respawn --transpile-only ./second.ts"
+    "start": "ts-node-dev --respawn --transpile-only ./index.ts"
   },
   "keywords": [
     "tuple",
@@ -13,5 +13,13 @@
     "interface"
   ],
   "author": "Daniel",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.2"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  }
 }
